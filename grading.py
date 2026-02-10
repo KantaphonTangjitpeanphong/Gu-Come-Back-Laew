@@ -8,18 +8,18 @@ if total > 100:
 elif total <0:
     print("invalid")
 elif 80 <= total <= 100:
-    print("grade is A")
+    print("A")
 elif  75 <= total < 80:
-    print("grade is B+")
+    print("B+")
 elif 70 <= total < 75:
-    print("grade is B")
+    print("B")
 elif 65 <= total < 70:
-    print("grade is C+")
+    print("C+")
 elif 60 <= total < 65:
-    print("grade is C")
+    print("C")
 elif 55 <= total < 60:
-    print("grade is D+")
+    print("D+")
 elif 50 <= total < 55:
-    print("grade is D")
+    print("D")
 else:
-    print("grade is F")
+    print("F")
